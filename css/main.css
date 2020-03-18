@@ -95,6 +95,11 @@ h2 {
     color: white;
 }
 
+.school h2 {
+  color: black;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
 .intro p {
     font-size: 1.4rem;
     color: white;
@@ -106,7 +111,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 1;
 }
@@ -118,7 +123,7 @@ h4 {
 }
 
 h5 { 
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 400;
     line-height: 1;
     margin-bottom: 5%;
@@ -269,7 +274,7 @@ p {
   box-shadow: none;
   border-radius: 0;
   padding: 0;
-  color: white;
+  color: white;A New York City based digital marketer turned full-stack software developer with a passion for combining design and tech to create user-friendly products. As a results-driven email marketer with 3+ years of experience managing high volume email programs, I've developed an affinity for project management, problem solving, and the exploration of new technologies. As a software developer, I am learning new technologies everyday that build upon my marketing knowledge and allow me to develop applications that create a better user experience. I strive to be a part of a creative, collaborative, and forward-thinking environment where I can use my unique marketing background and technical skill-set to make a positive impact. 
 }
 
 input[type="text"].form-control::-webkit-input-placeholder{

@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-    font-family: 'Karla', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-text-size-adjust: 100%;
         -ms-text-size-adjust: 100%;
   }
@@ -1525,7 +1525,7 @@ html {
   kbd,
   pre,
   samp {
-    font-family: 'Karla', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   code {
     padding: 2px 4px;
@@ -5970,7 +5970,7 @@ html {
     position: absolute;
     z-index: 1070;
     display: block;
-    font-family: 'Karla', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: normal;
@@ -6089,7 +6089,7 @@ html {
     display: none;
     max-width: 276px;
     padding: 1px;
-    font-family: 'Karla', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: normal;
@@ -6358,7 +6358,7 @@ html {
   .carousel-control .icon-next {
     width: 20px;
     height: 20px;
-    font-family: 'Karla', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1;
   }
   .carousel-control .icon-prev:before {

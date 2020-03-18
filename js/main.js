@@ -22,15 +22,15 @@ $(window).on("scroll touchmove", function() {
         $('a.navbar-brand.page-scroll').css('color','#d4d5d9');
     }
     if($(document).scrollTop() >= $("#portfolio").position().top) {
-        $('body').css('background-color','#c25b56');
-        $('#mainNav').css('background-color','#c25b56');
-        $('#mainNav li a').css('color','#f8cfc3');
-        $('#nav-3 a').css('color','#f8cfc3');
+        $('body').css('background-color','#aca0ca');
+        $('#mainNav').css('background-color','#aca0ca');
+        $('#mainNav li a').css('color','#36237b');
+        $('#nav-3 a').css('color','#36237b');
         $('#mainNav li a').css('font-weight','400');
         $('#mainNav li a').css('text-transform','none');
         $('#nav-3 a').css('font-weight','700');
         $('#nav-3 a').css('text-transform','uppercase');
-        $('a.navbar-brand.page-scroll').css('color','#f8cfc3');
+        $('a.navbar-brand.page-scroll').css('color','#36237b');
     }
     if($(document).scrollTop() >= $("#skillset").position().top) {
         $('body').css('background-color','#beb9b5');

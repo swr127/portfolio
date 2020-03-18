@@ -91,7 +91,7 @@ h2 {
 
 .school h2 {
   color: black;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.5);
 }
 
 .intro p {
@@ -100,7 +100,7 @@ h2 {
     line-height: 1.75;
     font-weight: 400;
     opacity: .75;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
     letter-spacing: 0.2;
 }
 
@@ -132,7 +132,7 @@ p {
 /* **************/
 
 .home {
-    background-image: url("https://i.imgur.com/7vEf7a1.jpg");
+    background-image: url("https://i.imgur.com/WtuU1RC.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }

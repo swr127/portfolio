@@ -22,15 +22,15 @@ $(window).on("scroll touchmove", function() {
         $('a.navbar-brand.page-scroll').css('color','#d4d5d9');
     }
     if($(document).scrollTop() >= $("#portfolio").position().top) {
-        $('body').css('background-color','#aca0ca');
-        $('#mainNav').css('background-color','#aca0ca');
-        $('#mainNav li a').css('color','#36237b');
-        $('#nav-3 a').css('color','#36237b');
+        $('body').css('background-color','#758390');
+        $('#mainNav').css('background-color','#758390');
+        $('#mainNav li a').css('color','white');
+        $('#nav-3 a').css('color','white');
         $('#mainNav li a').css('font-weight','400');
         $('#mainNav li a').css('text-transform','none');
         $('#nav-3 a').css('font-weight','700');
         $('#nav-3 a').css('text-transform','uppercase');
-        $('a.navbar-brand.page-scroll').css('color','#36237b');
+        $('a.navbar-brand.page-scroll').css('color','white');
     }
     if($(document).scrollTop() >= $("#skillset").position().top) {
         $('body').css('background-color','#beb9b5');
@@ -55,7 +55,6 @@ $(window).on("scroll touchmove", function() {
         $('a.navbar-brand.page-scroll').css('color','#46808e');
     }
     if($(document).scrollTop() >= $("#contact").position().top) {
-        console.log("Contact escapes me!");
         $('body').css('background-color','#758390');
         $('#mainNav').css('background-color','#758390');
         $('#mainNav li a').css('color','white');

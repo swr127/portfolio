@@ -10,20 +10,20 @@ body {
     transition: background 0.15s ease;    
 }
 
-#educationLink, #experienceLink, #skillsetLink, #contactLink {
+#experienceLink, #portfolioLink, #skillsetLink, #educationLink, #contactLink {
     height: 100px;
-}
-
-#locationLink .row {
-    height: 100px;
-}
-
-#education {
-    padding: 10% 0 15% 0;
 }
 
 #experience, #skillset {
     padding: 5% 0 10% 0;
+}
+
+#portfolio {
+    padding: 5%;
+}
+
+#education {
+    padding: 10% 0 15% 0;
 }
 
 #contact {
@@ -38,12 +38,12 @@ body {
     padding: 15% 0;
 }
 
-.school, .work, .skill, .newyork, .location {
-    padding: 10%;
+.school, .work, .skill {
+  padding: 10%;
 }
 
 button .navbar-toggle .collapsed #menu {
-    height: 15px;
+  height: 15px;
 }
 
 .navbar-default {
@@ -95,7 +95,7 @@ h2 {
     color: white;
 }
 
-.intro p{
+.intro p {
     font-size: 1.4rem;
     color: white;
     line-height: 1.75;
@@ -133,7 +133,7 @@ p {
 /* **************/
 
 .home {
-    background-image: url(../images/bg.jpg);
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -168,6 +168,7 @@ p {
     color: white;
 }
 
+
 /* **************
 // SKILLSET
 /* **************/
@@ -186,24 +187,6 @@ p {
 
 .education h3,.education h4,.education h5,.education p{
     color: black;
-}
-
-/* **************
-// LOCATION
-/* **************/
-
-.map{
-    height: 700px;
-}
-
-.location{
-    background-image: url("https://i.imgur.com/bszFOV6.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.location h3,p{
-    color: white;
 }
 
 /* **************
@@ -323,12 +306,6 @@ input:-webkit-autofill {
     width: 100%;
 }
 
-.btn-portfolio{
-    background: rgba(255,255,255,0.75);
-    color: #454f5b;
-    width: 100%;
-}
-
 /* **************
 // TOGGLE
 /* **************/
@@ -404,7 +381,7 @@ input:-webkit-autofill {
   #home .row{
     padding: 27% 0;
   }
-  #educationLink, #experienceLink, #skillsetLink, #contactLink{
+  #experienceLink, #portfolioLink, #educationLink, #skillsetLink, #contactLink {
     height: 50px;
   }
   .experience p, .skillset p{
@@ -433,11 +410,6 @@ input:-webkit-autofill {
   }
   .work, .skillset{
     padding: 3% 5%;
-  }
-  .location{
-      background-image: url("https://i.imgur.com/YuSlU8G.png");
-      background-size: cover;
-      background-repeat: no-repeat;
   }
   .contact{
     margin: 15% 0;

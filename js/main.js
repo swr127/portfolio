@@ -1,7 +1,7 @@
 $(window).on("scroll touchmove", function() {
     if ($(document).scrollTop() >= $("#home").position().top) {
-        $('body').css('background-color','#222');
-        $('#mainNav').css('background-color','rgba(255,255,255,0.5');
+        $('body').css('background-color','#dfe6ec');
+        $('#mainNav').css('background-color','#dfe6ec');
         $('#mainNav li a').css('color','black');
         $('#nav-1 a').css('color','black');
         $('#mainNav li a').css('font-weight','400');

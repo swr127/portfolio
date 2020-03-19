@@ -304,13 +304,20 @@ input:-webkit-autofill {
     padding: 0;
 }
 
-.btn-primary{
+.btn-primary {
     background: #454f5b;
     border: none;
     font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 1rem;
     width: 100%;
+}
+
+.btn-resume {
+  background: rgba(255,255,255,0.75);
+  color: #454f5b;
+  margin-top: 5%;
+  width: 100%;
 }
 
 /* **************

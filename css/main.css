@@ -348,6 +348,9 @@ input:-webkit-autofill {
     h3 {
         font-size: 2.2rem; 
     }
+    .contact{
+      margin: 20% 0;
+    }
     .btn-primary{
       font-size: 1.3rem;
     }
@@ -369,8 +372,8 @@ input:-webkit-autofill {
   .school p {
     font-size: 1.5rem;
   }
-  .contact {
-    margin: 5% 0;
+  .contact{
+    margin: 15% 0;
   }
   .btn-primary{
     font-size: 1.3rem;
@@ -381,20 +384,21 @@ input:-webkit-autofill {
   #home .row {
     padding: 40% 0;
   }
-  h3{
+  h3 {
     font-size: 2.2rem;
   }
   .education p {
     font-size: 1.25rem;
   }
-  .work, .skillset { 
+  .work, .port, .skillset { 
     padding: 3% 5%;
   }
-  .contact {
-    margin: 15% 0;
+  .contact{
+    margin: 2% 0;
   }
   .btn-primary{
     font-size: 1.3rem;
+    letter-spacing: 0.5rem;
   }
 }
 
@@ -406,17 +410,21 @@ input:-webkit-autofill {
   h1{
     font-size: 2.5rem;
   }
+  h2{
+    font-size: 1.5rem;
+  }
   #home p{
     font-size: 1.25rem;
   }
-  .school, .work, .skill {
+  .school, .work, .skill, .port {
     padding: 6% 1%;
   }
   .contact{
     margin: 2% 0;
   }
   .btn-primary{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.5rem;
   }
   .type-wrap span{
     font-size: 2.2rem;

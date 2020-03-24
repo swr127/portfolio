@@ -14,19 +14,7 @@ body {
     height: 100px;
 }
 
-#experience, #skillset {
-    padding: 5% 0 10% 0;
-}
-
-#portfolio {
-    padding: 5%;
-}
-
-#education {
-    padding: 10% 0 15% 0;
-}
-
-#contact {
+#home .row {
     padding: 15% 0;
 }
 
@@ -34,16 +22,26 @@ body {
     padding: 10% 0;
 }
 
-#home .row{
-    padding: 15% 0;
+#experience, #portfolio, #skillset, #education {
+    padding: 5% 0 10% 0;
 }
 
-.school, .work, .skill {
-  padding: 10%;
+#contact {
+    padding: 20% 0;
+}
+
+.work, .skill, .school {
+    height: 300px;
+    padding: 10%;
+}
+
+.port {
+    height: 400px;
+    padding: 10%;
 }
 
 button .navbar-toggle .collapsed #menu {
-  height: 15px;
+    height: 15px;
 }
 
 .navbar-default {
@@ -90,8 +88,8 @@ h2 {
 }
 
 .school h2 {
-  color: black;
-  text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.5);
+    color: black;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.5);
 }
 
 .intro p {
@@ -105,7 +103,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1;
 }
@@ -117,7 +115,7 @@ h4 {
 }
 
 h5 { 
-    font-size: 1.75rem;
+    font-size: 1.60rem;
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 5%;
@@ -167,13 +165,12 @@ p {
     color: white;
 }
 
-.btn-lg {
-  background: #454f5b;
-  border: none;
-  font-size: 1.5rem;
-  font-weight: 400;
-  letter-spacing: 1rem;
-  width: 100%;
+/* **************
+// PORTFOLIO
+/* **************/
+
+.portfolio h3,.portfolio h4,.portfolio h5,.portfolio p{
+  color: white;
 }
 
 /* **************
@@ -208,9 +205,6 @@ p {
 .type-wrap{
   text-align: center;
   padding: 4%;
-}
-.newyork{
-  padding: 25% 5%;
 }
 
 /* **************
@@ -279,7 +273,7 @@ p {
   color: white;A New York City based digital marketer turned full-stack software developer with a passion for combining design and tech to create user-friendly products. As a results-driven email marketer with 3+ years of experience managing high volume email programs, I've developed an affinity for project management, problem solving, and the exploration of new technologies. As a software developer, I am learning new technologies everyday that build upon my marketing knowledge and allow me to develop applications that create a better user experience. I strive to be a part of a creative, collaborative, and forward-thinking environment where I can use my unique marketing background and technical skill-set to make a positive impact. 
 }
 
-input[type="text"].form-control::-webkit-input-placeholder{
+input[type="text"].form-control::-webkit-input-placeholder {
   color: rgba(255,255,255,0.25);
 }
 
@@ -323,6 +317,7 @@ input:-webkit-autofill {
 /* **************
 // TOGGLE
 /* **************/
+
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
@@ -340,54 +335,21 @@ input:-webkit-autofill {
 // MEDIA QUERIES 
 /* **************/
 
-@media (min-width: 768px) {
-    .navbar-default {
-      background-color: transparent;
-      border-color: rgba(255, 255, 255, 0.3);
-    }
-  
-    .navbar-default .navbar-header .navbar-brand {
-      color: rgba(255, 255, 255, 0.7);
-    }
-  
-    .navbar-default .navbar-header .navbar-brand:hover,
-    .navbar-default .navbar-header .navbar-brand:focus {
-      color: white;
-    }
-  
-    .navbar-default .nav > li > a,
-    .navbar-default .nav > li > a:focus {
-      color: rgba(255, 255, 255, 0.7);
-    }
-    .navbar-default .nav > li > a:hover,
-    .navbar-default .nav > li > a:focus:hover {
-      color: white;
-    }
-    .navbar-default.affix {
-      background-color: white;
-      border-color: rgba(34, 34, 34, 0.05);
-    }
-    .navbar-default.affix .navbar-header .navbar-brand {
-      font-size: 14px;
-    }
-    .navbar-default.affix .nav > li > a,
-    .navbar-default.affix .nav > li > a:focus {
-      color: #222222;
-    }
-  }
-
-@media (max-width: 1200px){
-    #home .row{
+@media (max-width: 1200px) {
+    #home .row {
         padding: 17% 0;
     }
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
-    #home .row{
+    #home .row {
         padding: 21% 0;
     }
-    h3{
+    h3 {
         font-size: 2.2rem; 
+    }
+    .btn-primary{
+      font-size: 1.3rem;
     }
 }
 
@@ -398,35 +360,41 @@ input:-webkit-autofill {
   #experienceLink, #portfolioLink, #educationLink, #skillsetLink, #contactLink {
     height: 50px;
   }
-  .experience p, .skillset p{
+  .experience p, .portfolio p, .skillset p {
     font-size: 1.25rem;
   }
-  .school{
+  .school {
     padding: 3% 5%;
   }
-  .school p{
+  .school p {
     font-size: 1.5rem;
   }
-  .contact{
-    margin: 10% 0;
+  .contact {
+    margin: 5% 0;
+  }
+  .btn-primary{
+    font-size: 1.3rem;
   }
 }
 
 @media (max-width: 480px){
-  #home .row{
+  #home .row {
     padding: 40% 0;
   }
   h3{
     font-size: 2.2rem;
   }
-  .education p{
+  .education p {
     font-size: 1.25rem;
   }
-  .work, .skillset{
+  .work, .skillset { 
     padding: 3% 5%;
   }
-  .contact{
+  .contact {
     margin: 15% 0;
+  }
+  .btn-primary{
+    font-size: 1.3rem;
   }
 }
 
@@ -441,14 +409,14 @@ input:-webkit-autofill {
   #home p{
     font-size: 1.25rem;
   }
-  .school, .work, .skill{
+  .school, .work, .skill {
     padding: 6% 1%;
   }
   .contact{
     margin: 2% 0;
   }
   .btn-primary{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .type-wrap span{
     font-size: 2.2rem;
